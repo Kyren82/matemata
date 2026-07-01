@@ -4,7 +4,7 @@
 }
 
 #wrapper{
-    width: 100vw;
+    width: 100%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -56,7 +56,7 @@
 }
 
 #navol > li{
-    background-color: #40916c;
+    background-color: #53b488;
     width: 10%;
     height: 40%;
     display: grid;
@@ -71,7 +71,7 @@
     display: grid;
     place-items: center;
     text-decoration: none;
-    color: #ffecc9;
+    color: #fff4df;
     font-size: 120%;
     font-family: arial black;
     transition: all ease-out .2s;
@@ -85,36 +85,45 @@
     color: #f6ce83;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #main{
     width: 100%;
     min-height: 50vh;
     background-color: #95d5b2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+#mainPanel{
+    width: 60%;
+    height: 40vh;
+    min-height: 40vh;
+    background-color: #64b88e;
+    padding: 1%;
+    color: white;
+}
 
+#mainPanel > p{
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
+}
 
+#mainTitle{
+    font-size: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    animation: borderwheat 6s linear infinite alternate;
+}
 
-
-
-
-
+@keyframes borderwheat {
+    from{
+        color: white;
+    }
+    to{
+        color: rgb(253, 240, 215);
+    }
+}
 
 
 #footer{
