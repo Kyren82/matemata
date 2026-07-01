@@ -1,0 +1,111 @@
+#main{
+    height: 140vh;
+    flex-direction: column;
+}
+
+#kursList{
+    padding: 2% 0px 2% 0px;
+    width: 90%;
+    height: 50%;
+    background-color: #64b88e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+
+}
+
+#kursList > li{
+    width: 20%;
+    height: 90%;
+    background-color: #2d6a4f;
+    border-radius: 15px;
+}
+
+.kursTitle{
+    min-height: 30%;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    background-color: #1b4332;
+    display: grid;
+    place-items: center;
+    border-radius: 15px 15px 0 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.kursDescription{
+    width: 100%;
+    height: 50%;
+}
+
+.kursDescription > li{
+    font-size: 1.3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    list-style: disc;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+
+#kursList > li > #button{
+    width: 100%;
+    height: 20%;
+    display: grid;
+    place-items: center;
+    background-color: #1e563d;
+    border-radius: 0 0 15px 15px;
+    border: none;
+}
+
+#button > a{
+    font-size: 2rem;
+    font-family: arial black;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    color: white;
+
+}
+
+#korki{
+    width: 90%;
+    height: 50%;
+    background-color: #64b88e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 75%;
+    height: 80%;
+    background-color: #74c69d;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 2rem;
+    font-family: arial black;
+    gap: 5%;
+}
+
+label[for=h1], label[for=h2]{
+    font-size: 1.5rem;
+}
+
+select, input[type=date]{
+    padding: 1%;
+}
+
+input[type=submit]{
+    padding: 1%;
+    width: 10%;
+    border: #1e563d solid 2px;
+    font-size: 1.1rem;
+    font-family: arial black;
+}
