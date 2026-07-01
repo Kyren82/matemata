@@ -1,28 +1,17 @@
-# 🚀 Nazwa Twojego Projektu
+# Matemata 
 
-> Krótkie, jednozdaniowe i chwytliwe podsumowanie tego, co robi Twój projekt (np. "Lekki bot do Discorda automatyzujący moderację przy użyciu AI").
+> Peak strona Matemata -> ("sprzedaje") bardzo dobre kursy z matematyki oraz korepetycje.
 
-Dodaj tutaj krótki opis (2-3 zdania) wyjaśniający problem, który rozwiązujesz, oraz główne technologie.
+*Testuje jak to działa | side project*
 
 ---
 
-## ✨ Funkcje (Features)
+## Wymagania
 
-- **Główna funkcja A** – krótki opis korzyści.
-- **Funkcja B** – np. "Automatyczne odświeżanie w czasie rzeczywistym".
-- **Responsive Design** – działa świetnie na mobile i desktopie.
+Zanim zaczniesz, upewnij się, że masz:
+- Komputer (opcjonalnie)
+- internet 
 
-## 📦 Wymagania (Prerequisites)
-
-Zanim zaczniesz, upewnij się, że masz zainstalowane:
-- Node.js (wersja v18 lub nowsza)
-- NPM lub Yarn
-- Dostęp do bazy danych PostgreSQL
-
-## 🚀 Szybki start (Installation)
-
-Wprowadź instrukcję krok po kroku, jak uruchomić projekt lokalnie.
-
-1. Sklonuj repozytorium:
+Sklonuj repozytorium:
    ```bash
-   git clone [https://github.com/twoj-username/nazwa-projektu.git](https://github.com/twoj-username/nazwa-projektu.git)
+   git clone [https://github.com/Kyren82/matemata.git](https://github.com/https://github.com/Kyren82/matemata.git)
