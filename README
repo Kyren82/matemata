@@ -1,4 +1,4 @@
-# ** Matemata **
+# Matemata
 
 > Peak strona Matemata -> ("sprzedaje") bardzo dobre kursy z matematyki oraz korepetycje.
 
@@ -15,3 +15,4 @@ Zanim zaczniesz, upewnij się, że masz:
 Sklonuj repozytorium:
    ```bash
    git clone https://github.com/Kyren82/matemata.git
+   ```
