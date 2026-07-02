@@ -70,6 +70,51 @@ main{
     color: white;
 }
 
+.course-description li span{
+    font-size: 2vw;
+}
+
+.ranbow-span{
+    animation: rainbow-font 2.5s linear infinite alternate;
+}
+
+@keyframes rainbow-font{
+    0%{
+        color: red;
+    }
+    10%{
+        color: orange;
+    }
+    20%{
+        color: yellow;
+    }
+    30%{
+        color: yellowgreen;
+    }
+    40%{
+        color: green;
+    }
+    50%{
+        color: teal;
+    }
+    60%{
+        color: aqua;
+    }
+    70%{
+        color: blue;
+    }
+    80%{
+        color: violet;
+    }
+    90%{
+        color: pink;
+    }
+    100%{
+        color: wheat;
+    }
+}
+
+
 #korki{
     width: 90%;
     background-color: #64b88e;
