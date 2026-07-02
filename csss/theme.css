@@ -86,6 +86,7 @@ header {
     transition: all ease-out .2s;
     letter-spacing: 3px;
     word-spacing: 5px;
+    cursor: pointer;
 }
 
 .nav-li-none{
