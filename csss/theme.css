@@ -1,23 +1,23 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: Arial, serif;
     text-decoration: none;
     background-color: #40916c;
+    overflow-x: hidden;
 }
 
-#wrapper{
+#wrapper {
     width: 100%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    overflow-x: hidden;
 }
 
-header{
+header {
     width: 100%;
     padding: 2%;
     background-color: #b7e4c7;
@@ -26,7 +26,7 @@ header{
     justify-content: center;
 }
 
-.header-title{
+.header-title {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,25 +35,28 @@ header{
     text-align: center;
 }
 
-.nav{
+.nav {
     width: 100%;
-    padding: 1%;
+    padding: 1% 0;
     background-color: #d8f3dc;
     list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
     gap: 5%;
 }
 
-.nav li{
+.nav li {
     background-color: #53b488;
     transition: all ease-out .2s;
     border-radius: 10px 0px;
     padding: 5px 20px 5px 20px;
 }
 
-.nav li a{
+.nav li a {
     width: 100%;
     text-decoration: none;
     color: white;
@@ -62,11 +65,11 @@ header{
     transition: all ease-out .2s;
 }
 
-.nav li:hover{
-    box-shadow: 0px 0px 5px #40916c,0px 0px 5px #40916c;
+.nav li:hover {
+    box-shadow: 0px 0px 5px #40916c, 0px 0px 5px #40916c;
 }
 
-main{
+main {
     width: 100%;
     background-color: #95d5b2;
     display: flex;
@@ -74,25 +77,25 @@ main{
     align-items: center;
 }
 
-footer{
+footer {
     width: 100%;
     background: #74c69d;
     display: flex;
     justify-content: center;
 }
 
-#footer-left-side, #footer-right-side{
+#footer-left-side, #footer-right-side {
     width: 30%;
     display: flex;
     padding-top: 0.5%;
     flex-direction: column;
 }
 
-.footer-line{
+.footer-line {
     border-left: dashed 10px #95d5b2;
 }
 
-#footer-left-side p, #footer-right-side p{
+#footer-left-side p, #footer-right-side p {
     width: 100%;
     display: inline-block;
     text-align: center;
@@ -103,12 +106,17 @@ footer{
     margin-top: 2%;
 }
 
-#footer-left-side p:first-child, #footer-right-side p:first-child{
+#footer-left-side p:first-child, #footer-right-side p:first-child {
     font-size: 1.5rem;
     color: #e4e4e4;
 }
 
-#footer-left-side, #footer-right-side, .footer-line{
+#footer-left-side, #footer-right-side, .footer-line {
     padding-bottom: 3%;
 }
 
+@media screen and (width < 768px) {
+    #footer-left-side, #footer-right-side{
+        width: 50%;
+    }
+}

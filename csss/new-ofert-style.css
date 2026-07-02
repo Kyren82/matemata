@@ -11,6 +11,7 @@ main{
     align-items: center;
     color: white;
     list-style: none;
+    
 }
 
 #course-list .course-item{
@@ -22,7 +23,7 @@ main{
 
 .course-title{
     height: 30%;
-    font-size: 2.5rem;
+    font-size: 2.5vw;
     font-weight: 700;
     text-align: center;
     background-color: #1b4332;
@@ -34,13 +35,13 @@ main{
 
 .course-description{
     width: 100%;
-    height: 50%;
+    min-height: 55%;
     display: flex;
     flex-direction: column;
 }
 
 .course-description li{
-    font-size: 1.3rem;
+    font-size: 1.45vw;
     font-family: 'Trebuchet MS', sans-serif;
     font-weight: 800;
     list-style: disc;
@@ -51,7 +52,7 @@ main{
 
 #course-list .course-item .course-buy-now-button{
     width: 100%;
-    height: 20%;
+    height: 15%;
     display: grid;
     place-items: center;
     background-color: #1e563d;
@@ -60,7 +61,7 @@ main{
 }
 
 .course-buy-now-button a{
-    font-size: 2rem;
+    font-size: 1.75vw;
     font-family: arial black;
     width: 100%;
     height: 100%;
@@ -91,6 +92,7 @@ form{
     gap: 20px;
     padding: 5%;
     box-sizing: border-box;
+    text-align: center;
 }
 
 label[for=h1], label[for=h2]{
@@ -101,7 +103,7 @@ select, input[type=date]{
     padding: 1%;
     font-size: 1.2rem;
     font-family: sans-serif;
-    width: 50%;
+    min-width: 50%;
     text-align: center;
 }
 
@@ -126,4 +128,33 @@ form div {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+
+@media screen and (width < 768px) {
+    #course-list, #korki{
+        width: 100%;
+    }
+
+    #course-list{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #course-list .course-item{
+        width: 60%;
+    }
+
+    .course-title{
+        font-size: 4.5vw;
+    }
+
+    .course-description li{
+        font-size: 3vw;
+    }
+
+    .course-buy-now-button a{
+        font-size: 5vw;
+    }
+
 }
