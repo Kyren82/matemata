@@ -35,6 +35,7 @@ document.querySelector(".first-nav-li button").addEventListener("click", (e)=>{
             }, index * 50);
         });
         clicked = false;
+        document.querySelector(".first-nav-li button").innerHTML = "Zwiń menu";
     }
     else{   
         LiList.forEach((el, index) => {
@@ -44,5 +45,6 @@ document.querySelector(".first-nav-li button").addEventListener("click", (e)=>{
         });
         document.querySelector(".first-nav-li").style.display = 'block';
         clicked = true;
+        document.querySelector(".first-nav-li button").innerHTML = "Rozwiń menu";
     }
 });

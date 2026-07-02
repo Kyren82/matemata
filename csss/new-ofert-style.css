@@ -190,6 +190,10 @@ form div {
         width: 60%;
     }
 
+    .course-description li span{
+        font-size: 4.5vw;
+    }
+
     .course-title{
         font-size: 4.5vw;
     }
