@@ -1,16 +1,14 @@
 # Matemata
 
-> Peak strona Matemata -> ("sprzedaje") bardzo dobre kursy z matematyki oraz korepetycje.
+*Peak strona Matemata -> ("sprzedaje") bardzo dobre kursy z matematyki oraz korepetycje.
 
-*Testuje jak to działa | side project*
-
----
+>Testuje jak to działa | side project*
 
 ## Wymagania
 
 Zanim zaczniesz, upewnij się, że masz:
-- Komputer (opcjonalnie)
 - internet
+- Komputer (opcjonalnie)
 
 Sklonuj repozytorium:
 
