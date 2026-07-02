@@ -16,3 +16,9 @@ Sklonuj repozytorium:
    ```bash
    git clone https://github.com/Kyren82/matemata.git
    ```
+
+#### Get all items
+
+```http
+  GET /api/items
+```
