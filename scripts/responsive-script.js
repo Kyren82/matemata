@@ -1,6 +1,7 @@
  const MIN_WIDTH = 768;
 let LiList = document.querySelectorAll(".nav li");
 let HeaderTitle = document.querySelector(".header-title");
+
         function ResponseHeaderTitle(){
             (window.innerWidth < MIN_WIDTH) ? HeaderTitle.innerHTML = "Matemata" : HeaderTitle.innerHTML = "Matemata - kursy dla każdego";
         }
@@ -20,21 +21,21 @@ let HeaderTitle = document.querySelector(".header-title");
             }
         }
 
-
 ResponseHeaderTitle();
 window.addEventListener('resize', ResponseHeaderTitle);
+
 ResponseMenu();
 window.addEventListener('resize', ResponseMenu);
 
-let clicked = true;
+let clicked = false;
 document.querySelector(".first-nav-li button").addEventListener("click", (e)=>{
-    if(clicked){
+    if(!clicked){
         LiList.forEach((el, index) => {
             setTimeout(() => {
                 el.classList.remove("nav-li-none");
             }, index * 50);
         });
-        clicked = false;
+        clicked = true;
         document.querySelector(".first-nav-li button").innerHTML = "Zwiń menu";
     }
     else{   
@@ -44,7 +45,7 @@ document.querySelector(".first-nav-li button").addEventListener("click", (e)=>{
             }, (LiList.length - 1 - index) * 100);
         });
         document.querySelector(".first-nav-li").style.display = 'block';
-        clicked = true;
+        clicked = false;
         document.querySelector(".first-nav-li button").innerHTML = "Rozwiń menu";
     }
 });
