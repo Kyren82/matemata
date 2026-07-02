@@ -10,15 +10,9 @@
 
 Zanim zaczniesz, upewnij się, że masz:
 - Komputer (opcjonalnie)
-- internet 
+- internet
 
 Sklonuj repozytorium:
-   ```bash
-   git clone https://github.com/Kyren82/matemata.git
-   ```
 
-#### Get all items
-
-```http
-  GET /api/items
-```
+```bash
+git clone [https://github.com/Kyren82/matemata.git](https://github.com/Kyren82/matemata.git)
