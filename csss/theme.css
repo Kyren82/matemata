@@ -19,7 +19,7 @@ body {
 
 header {
     width: 100%;
-    padding: 2%;
+    padding: 2% 0;
     background-color: #b7e4c7;
     display: flex;
     align-items: center;
