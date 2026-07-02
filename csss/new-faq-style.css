@@ -43,3 +43,9 @@ main{
 .main-line{
     width: 10px;
 }
+
+@media screen and (width < 768px) {
+    .ask, .answer{
+        padding: 3%;
+    }
+}

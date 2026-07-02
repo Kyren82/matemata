@@ -54,6 +54,8 @@ header {
     transition: all ease-out .2s;
     border-radius: 10px 0px;
     padding: 5px 20px 5px 20px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
 }
 
 .nav li a {
@@ -67,6 +69,27 @@ header {
 
 .nav li:hover {
     box-shadow: 0px 0px 5px #40916c, 0px 0px 5px #40916c;
+}
+
+.first-nav-li{
+    display: none;
+}
+
+.first-nav-li button{
+    background: none;
+    border: none;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    font-size: 120%;
+    font-weight: 900;
+    transition: all ease-out .2s;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+}
+
+.nav-li-none{
+    display: none;
 }
 
 main {
@@ -116,7 +139,17 @@ footer {
 }
 
 @media screen and (width < 768px) {
-    #footer-left-side, #footer-right-side{
+    .nav{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav li{
         width: 50%;
+        text-align: center;
+    }
+
+    #footer-left-side, #footer-right-side{
+        width: 49%;
     }
 }
