@@ -31,6 +31,6 @@
             require_once("headers/footer.html");
         ?>
     </div>
-    <script src="../scripts/responsive-script.js"></script>
+    <script src="scripts/responsive-script.js"></script>
 </body>
 </html>
