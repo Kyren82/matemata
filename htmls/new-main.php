@@ -10,17 +10,10 @@
 </head>
 <body>
     <div id="wrapper">
-        <header>
-            <h1 class="header-title">Matemata - kursy dla każdego</h1>
-        </header>
-        <ul class="nav">
-            <li class="first-nav-li"><button class="nav-button">Rozwiń  menu</button></li>
-            <li><a href="new-main.html">Strona główna</a></li>
-            <li><a href="about.html">O nas</a></li>
-            <li><a href="new-ofert.html">Oferta</a></li>
-            <li><a href="opinion.html">Opinie</a></li>
-            <li><a href="new-faq.html">FAQ</a></li>
-        </ul>
+        <?php
+            require_once("../headers/header.html");
+            require_once("../headers/nav.html");
+        ?>
         <main>
             <div class="main-panel">
                 <span class="main-title">Nie potrafisz matematyki jak jak 99% naszych klientów?</span>
