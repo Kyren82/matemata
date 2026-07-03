@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  web:
+    image: php:8.2-apache
+    container_name: matemata_web
+    restart: always
+    ports:
+      - "1111:80"
+    volumes:
+      - .:/var/www/html

@@ -10,17 +10,10 @@
 </head>
 <body>
     <div id="wrapper">
-        <header>
-            <h1 class="header-title">Matemata - kursy dla każdego</h1>
-        </header>
-        <ul class="nav">
-            <li class="first-nav-li"><button class="nav-button">Rozwiń  menu</button></li>
-            <li><a href="new-main.html">Strona główna</a></li>
-            <li><a href="about.html">O nas</a></li>
-            <li><a href="new-ofert.html">Oferta</a></li>
-            <li><a href="opinion.html">Opinie</a></li>
-            <li><a href="new-faq.html">FAQ</a></li>
-        </ul>
+        <?php
+            require_once("../headers/header.html");
+            require_once("../headers/nav.html");
+        ?>
         <main>
             <ul class="main-list">
                 <li>
@@ -45,22 +38,9 @@
                 </li>
             </ul>
         </main>
-        <footer>
-            <div id="footer-left-side">
-                <p>Informacje</p>
-                <p>Autor: Kyren82</p>
-                <p>bardzo ważne i potrzebne informacje</p>
-                <p>bardzo potrzebne informacje</p>
-                <p>bardzo ważne informacje</p>
-            </div>
-            <div class="footer-line"></div>
-            <div id="footer-right-side">
-                <p>Kontanty</p>
-                <p>bardzo ważne i potrzebne informacje</p>
-                <p>numer telefonu: 111-111-111</p>
-                <p>mail: Idopieca@gmail.gg</p>
-            </div>
-        </footer>
+        <?php
+            require_once("../headers/footer.html");
+        ?>
     </div>
     <script src="../scripts/responsive-script.js"></script>
 </body>
