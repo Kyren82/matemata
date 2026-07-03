@@ -12,8 +12,15 @@
     <div id="wrapper">
         <?php
             require_once("headers/header.html");
-            require_once("headers/nav.html");
         ?>
+        <ul class="nav">
+            <li class="first-nav-li"><button class="nav-button">Rozwiń  menu</button></li>
+            <li><a href="index.php">Strona główna</a></li>
+            <li><a href="htmls/about.php">O nas</a></li>
+            <li><a href="htmls/new-ofert.php">Oferta</a></li>
+            <li><a href="htmls/opinion.php">Opinie</a></li>
+            <li><a href="htmls/new-faq.php">FAQ</a></li>
+        </ul>
         <main>
             <div class="main-panel">
                 <span class="main-title">Nie potrafisz matematyki jak jak 99% naszych klientów?</span>
